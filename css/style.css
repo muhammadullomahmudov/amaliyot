@@ -620,6 +620,9 @@ ol {
   .hero__inner {
     justify-content: space-between;
   }
+  .burger-btn {
+    display: none;
+  }
 }
 .section-information {
   background-color: #F4F4F4;
