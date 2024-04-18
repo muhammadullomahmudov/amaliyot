@@ -48,7 +48,8 @@
 
 .footer-map__img {}
 
-.footer-about__list {}
+.footer-about__list {
+}
 
 .footer-about__list_title {}
 
@@ -70,7 +71,8 @@
     color: rgba(255, 255, 255, 0.7);
 }
 
-.footer-for__list {}
+.footer-for__list {
+}
 
 .for__list-inner {
     font-family: var(--font-family);
@@ -197,7 +199,7 @@ line-height: 150%;
 color: #fff;
     }
 }
-@media only screen and (max-width:516px) {
+@media only screen and (max-width:581px) {
     .footer__inner {
         display: flex;
         justify-content: space-between;
@@ -264,7 +266,7 @@ line-height: 150%;
 color: #fff;
     }
 }
-@media only screen and (max-width:398px) {
+@media only screen and (max-width:413px) {
     .boxcontandabout {
         flex-direction: column;
     }
