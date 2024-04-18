@@ -760,6 +760,9 @@ ol {
     max-width: 308.16px;
     width: 100%;
     font-size: 25px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .site-footer {
