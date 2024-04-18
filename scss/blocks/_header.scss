@@ -103,7 +103,15 @@
         margin-top: -30px;
         margin-left: 200px;
     }
+    .list__inner:nth-child(2) {
+        display: none;
+    }
     .list__inner:nth-child(3) {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .list__inner:nth-child(1) {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
