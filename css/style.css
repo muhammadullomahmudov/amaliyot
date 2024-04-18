@@ -540,7 +540,7 @@ ol {
     margin-left: 200px;
   }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 450px) {
   .header-email-box {
     margin-top: -30px;
     margin-left: 200px;
