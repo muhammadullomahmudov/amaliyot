@@ -1,0 +1,204 @@
+.section-main {
+
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.container {}
+
+.main-container {
+    max-width: 1320px;
+    width: 100%;
+}
+
+.main__inner {}
+
+.main__list {
+    display: flex;
+    gap: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.main__list-inner {
+    max-width: 408px;
+    width: 100%;
+    position: relative;
+
+    box-shadow: 0 0 25px 0 rgba(222, 222, 222, 0.75);
+    background: #fff;
+    padding-bottom: 15px;
+
+    &::before {
+        position: absolute;
+        content: "";
+        background-image: url('../../images/uzuntayoq.svg');
+        background-repeat: no-repeat;
+        width: 379px;
+        height: 1px;
+        top: 400px;
+        left: 10px;
+    }
+
+    &:nth-child(3) {
+
+        &::before {
+            position: absolute;
+            content: "";
+            background-image: url('../../images/uzuntayoq.svg');
+            background-repeat: no-repeat;
+            width: 379px;
+            height: 1px;
+            top: 450px;
+            left: 10px;
+        }
+    }
+
+    &:nth-child(4) {
+
+        &::before {
+            position: absolute;
+            content: "";
+            background-image: url('../../images/uzuntayoq.svg');
+            background-repeat: no-repeat;
+            width: 379px;
+            height: 1px;
+            top: 450px;
+            left: 10px;
+        }
+    }
+
+    &:nth-child(5) {
+
+        &::before {
+            position: absolute;
+            content: "";
+            background-image: url('../../images/uzuntayoq.svg');
+            background-repeat: no-repeat;
+            width: 379px;
+            height: 1px;
+            top: 450px;
+            left: 10px;
+        }
+    }
+}
+
+.main__list-inner__top {}
+
+.main__list-inner__top-img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.main__list-inner__top-title {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #04243d;
+    margin-left: 10px;
+}
+
+.main__list-inner__top-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #04243d;
+    margin-left: 10px;
+}
+
+.main__list-inner__bottom {
+    margin-top: 60px;
+    margin-left: 15px;
+
+}
+
+.main__list-inner__bottom-img {}
+
+.main__list-inner__bottom-text {}
+
+
+@media only screen and (max-width:959px) {
+    .main__list-inner {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .main__list {
+        flex-wrap: wrap;
+    }
+
+    .main__list-inner {
+        max-width: 324px;
+        width: 100%;
+
+        &::before {
+            width: 301px;
+            height: 1px;
+        }
+    }
+
+    .main__list-inner__top-img {
+        border-radius: 10px;
+        width: 324px;
+        height: 182px;
+    }
+
+    .main__list-inner__top-title {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #04243d;
+    }
+
+    .main__list-inner__top-text {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #04243d;
+    }
+
+    .main__list-inner:nth-child(1):before {
+        content: none;
+    }
+
+    .main__list-inner:nth-child(2):before {
+        content: none;
+    }
+
+    .main__list-inner:nth-child(3):before {
+        content: none;
+    }
+
+    .main__list-inner:nth-child(4)::before {
+        content: none;
+    }
+
+    .main__list-inner:nth-child(5):before {
+        content: none;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .main__list-inner {
+        max-width: 366px;
+        width: 100%;
+    }
+
+    .main__list-inner__top-img {
+        border-radius: 10px;
+        width: 250px;
+        height: 205px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: inline-block;
+    }
+}
